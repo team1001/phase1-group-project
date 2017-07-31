@@ -1,0 +1,131 @@
+/* Reset */
+
+html,
+body,
+div,
+nav,
+header,
+section,
+article,
+footer,
+h1,
+h2,
+h3,
+p,
+img,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    /* this controlls the total width of the page */
+    max-width: 150vw;
+}
+
+nav {
+    /* this controlls the total width of the page */
+    min-height: 200px;
+    background-color: #2f4f4f;
+    position: relative;
+    color: 000080;
+    font-size: 60px;
+    padding: 15px;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    /* this controls the nav hover over w/ mouse color*/
+    background: #888;
+    color: #000000;
+}
+
+nav a:visited {
+    color: #003366;
+}
+
+header {
+    height: 650px;
+    /* issue*/
+    /* height: calc(100vh - 50px);*/
+    color: #f5f5f5;
+    font-size: 23px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-shadow: -4px 0 #000000, 0 4px #000000, 2px 0 #000000, 0 -1px #000000;
+    font-family: 'Indie Flower', cursive;
+    background-color: #C0C0C0;
+    background-position: center;
+    background-image: url("../images3/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg");
+    header a:visited {
+        color: #003366;
+    }
+    /* ---> keep for later --> 
+.thatabout {
+  background-image: url("../images2/landscapes-landscape-maldives-cloud-beauty-beach-ocean-sky-nature-photo-1366x768.jpg")*/
+}
+
+header a:hover {
+    background: #888;
+    color: #000000;
+}
+
+#section-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutus-section-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* --------THIS CONTROLS PHOTOS ON INDEX/HOME PAGE--------- */
+
+.box {
+    flex: 1;
+    background-image: url("../images3/nycpurple28602980365_75fed56177_b.jpg");
+    background-image: url("../images3/Manhattan_(NYC-New_York_City)_Skyline_(31769153946).jpg") background-color: #FD7C6E;
+    height: 400px;
+    background-size: cover;
+    /* controlled and resized image in box */
+}
+
+#section-one article:first-child {
+    background-image: url("../images3/nycpurple6326047652_b2c2e9453e_b.jpg");
+}
+
+#article-2 {
+    min-height: inherit;
+    /* how to resize a picture */
+    background-color: #ffff00;
+    /* if want color square */
+    background-image: url("../images3/pexels-photo-515466.jpeg")
+}
+
+#article-3 {
+    background-image: url("../images2/poster-1568247_960_720.jpg")
+}
+
+
+/* --------THIS CONTROLS PHOTOS ON INDEX/HOME PAGE---------  
+#article-4 {
+    background-image: url("../images2/New_York_NYC.jpg") */
+
+
+}
+
+/*------THIS CONTROLS THE BLACK AND GREY LINE BELOW PHOTOS ---------*/
+#section-two {
+    min-height: 20px;
+    background-color: #000000;
+}
+footer {
+    min-height: 20px;
+    background-color: #778899;
+    text-align: center;
+}
